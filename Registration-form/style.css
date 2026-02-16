@@ -1,0 +1,38 @@
+body{
+    background-color:lightblue;
+    font-family:Arial,sans-serif;
+}
+.box{
+    background-color:white;
+    width:320px;
+    padding:20px;
+    margin:100px auto;
+    border-radius:8px;
+}
+h2{
+    text-align:center;
+}
+input{
+    width:95%;
+    padding:8px;
+    margin:6px 0;
+}
+.gender{
+    margin:10px 0;
+}
+button{
+    width:100%;
+    padding:8px;
+    background-color:green;
+    color:white;
+    border:none;
+}
+#msg{
+    color:green;
+    text-align:center;
+    margin-top:10px;
+}
+#result{
+    margin-top:10px;
+    font-size:14px;
+}
