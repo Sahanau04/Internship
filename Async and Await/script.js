@@ -7,7 +7,6 @@ async function getData() {
     try {
         output.innerHTML = "Loading...";
 
-        // Small delay to show async behavior
         await new Promise(resolve => setTimeout(resolve, 500));
 
         output.innerHTML = 
@@ -18,4 +17,5 @@ async function getData() {
     } catch (error) {
         output.innerHTML = "Error loading data!";
     }
+
 }
